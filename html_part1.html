@@ -5,7 +5,14 @@
         <style>
             h2{color: salmon}
             h4{color: salmon}
+            .class_name{
+                color: royalblue;
+            }
+            #id_name{
+                color: slategray;
+            }
         </style>
+        <link rel="stylesheet" type="text/css" href="html_part.css"/>
     </head>
     <body>
         <a href="index.html">돌아가기</a>
@@ -15,13 +22,13 @@
         <hr />
         <h2>재료</h2>
         <ul>
-            <li>인스턴트 라면 1개</li>
-            <li>양파1/4</li>
-            <li>콩나물 1줌</li>
-            <del><li>청양고추 2다짐</li></del>
-            <li>쪽파 송송</li>
-            <li>얼음</li>
-            <li>냉라면 국물</li>
+            <li class="class_name">인스턴트 라면 1개</li>
+            <li class="class_name">양파1/4</li>
+            <li class="class_name">냉라면 국물</li>
+            <li id="id_name">콩나물 1줌</li>
+            <del><li id="id_name">청양고추 2다짐</li></del>
+            <li id="id_name">쪽파 송송</li>
+            <li id="id_name">얼음</li>
         </ul>
         <h4>라면국물 만드는 방법</h4>
         <ol>
@@ -32,5 +39,28 @@
             <li>설탕 2숟갈</li>
         </ol>
         <hr />
+        <style>
+                table,tr,td{border:solid 1px salmon;}
+            </style>
+        <table summary="요약 내용">
+                <caption>[라면 국물 재료]</caption>
+            <thead>
+                <tr>
+                    <th>라면스프</th>
+                    <th colspan="2">맛간장</th>
+                    <th colspan="2">물</th>
+                    <th>식초</th>
+                    <th>설탕</th>
+                </tr>
+            </thead>
+                <tr>
+                    <td>1봉지</td>
+                    <td colspan="2">2숟갈</td>
+                    <td colspan="2">1컵</td>
+                    <td>2숟갈</td>
+                    <td>2숟갈</td>
+                </tr>
+            </table>
+            <img src="images/ramen.jpg" width="300px"/>
     </body>
 </html>
