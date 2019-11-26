@@ -15,7 +15,9 @@
             ul{
                 padding: 0px;
             }
-            
+            header{
+                margin-left: 100px;
+            }
             header ul{
                 padding: 0px;
                 margin: 10px 0px; /*상하 좌우*/
@@ -23,6 +25,7 @@
             nav>ul>li{
                 float: left;
                 list-style: none;
+                position: relative;
                 padding-left: 0px;
                 padding-right: 5px;
             }
@@ -43,7 +46,7 @@
                 background-color: rgba(244, 250, 233, 0.589);
                 border-right: solid 2px #ddd;
                 border-bottom: solid 2px #ddd;
-                margin: 0px 20px 20px 0px;
+                margin: 20px 20px 20px 20px;
                 float: left;
             }
             .image_part>div{
@@ -119,24 +122,35 @@
             footer>li>img{
                 padding-bottom: 10px;
             }
+            video{
+                display: table; margin-left: auto; margin-right: auto;
+                width: 700px;
+            }
         </style>
     </head>
 </html>
 <body>
+    <ul>
+        <div style="float: left; list-style: none; margin: 5px;"><li><img src="images/ehdtnv_nintendo2.png"/></li></div>
+        <div style="float: right; list-style: none; margin: 5px;"><li><img src="images/ehdtnv_nintendo.png"/></li></div>
+    </ul>
     <div id="wrap">
         <header>
-            <h1><img src="images/ehdtnv_title_small.png"/></h1>
+            <h1><a href="nintendo.html"><img src="images/ehdtnv_title_small.png"/></a></h1>
             <nav>
                     <ul>
-                        <li><img src="images/ehdtnv_icon1.png"/></li>
-                        <li><img src="images/ehdtnv_icon2.png"/></li>
-                        <li><img src="images/ehdtnv_icon3.png"/></li>
-                        <li><img src="images/ehdtnv_icon4.png"/></li>
+                        <li><a href="nintendo2.html"><img src="images/ehdtnv_icon1.png"/></a></li>
+                        <li><a href="nintendo3.html"><img src="images/ehdtnv_icon2.png"/></a></li>
+                        <li><a href="nintendo4.html"><img src="images/ehdtnv_icon3.png"/></a></li>
+                        <li><a href="nintendo5.html"><img src="images/ehdtnv_icon4.png"/></a></li>
                         <div class="clear"></div>
                     </ul>
                 </nav>
             <div class="clear"></div>
         </header>
+            <video controls>
+                <source src="media/튀어나와요 동물의 숲 amiibo+ 소개 영상.mp4"/>
+            </video>
             <div id="content">
                     <div class="card">
                         <div class="image_part">
